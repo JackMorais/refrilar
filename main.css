@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Madimi+One&display=swap');
+
+body{
+    font-family: "Concert One", sans-serif;
+}
+
+.logo{
+    align-items: center;
+    display: flex;
+    
+}
+
+.concert-one-regular {
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .navbar-brand{
+    font-size: 50px;
+}
+.title-secundario{
+    font-size: 50px;
+    color: rgb(67, 164, 255);
+
+}
+.navbar{
+    background-color: rgb(226, 245, 253);
+    align-items: center;
+}
+header .nav-link{
+    color: rgb(5, 54, 99);
+    font-size: 20px;
+}
+.material-symbols-outlined{
+    color: black;
+    font-size: 35px;
+}
+.container{
+    
+}
+.sobre img{
+    max-width: 100vh;
+    width: 50vh;
+}
+.row ul li{
+    margin-right: 30px;
+    list-style: none;
+}
+.nosso-titulo{
+    background-color: rgb(242, 245, 247);
+
+}
+nav .nav-link{
+    
+    color: rgb(94, 91, 91);
+}
+
+.fale-conosco{
+    background-color: rgb(168, 220, 243);
+}
+.section{
+    max-height: 100vh;
+    height: 80vh;
+}
+.sectiona{
+    max-height: 110vh;
+    height: 80vh;
+}
+.social-link{
+    display: inline-flex;
+    
+    
+}
+
+footer{
+    background-color: rgb(226, 245, 253);
+}
+@media screen and (max-width: 768px){
+.container{
+    max-width: 95%;
+}
+aside nav{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.section{
+    max-height: 100vh;
+    height: 80vh;
+}
+.sectiona{
+    max-height: 150vh;
+    height: 120vh;
+}
+.container .row .col{
+    display: block;
+    
+
+}
+.section>#nossosservicos{
+    max-height: 250vh;
+    height: 250vh;
+    
+    padding-bottom: 200px;
+    margin-bottom: 100px;
+
+}
+.section>#parceiros{
+    max-height: 250vh;
+    height: 250vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+
+}
+
+
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+div .logo{
+    margin-right: 150px;
+}
+.nav-item a{
+    font-size: 20px;
+}
+
+
+}
